@@ -17,7 +17,7 @@ function SpecialMeal() {
           and swift delivery to what ever location within Ilorin.
         </span>
       </div>
-      <div className='md:flex mt-16 md:place-content-center  md:place-content-between '>
+      <div className='md:flex mt-16  md:place-content-between '>
         <div className='grid place-content-center md:ml-24  m-10 '>
           <div>
             {' '}

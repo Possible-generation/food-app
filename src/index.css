@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .no-scrollbar::-webkit-scrollbar {
+    @apply hidden;
+  }
+
+  .no-scrollbars {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
